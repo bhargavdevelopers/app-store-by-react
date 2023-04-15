@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.tab-container {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tab-btn {
+  color: #7b8794;
+  font-family: Bree Serif;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  align-self: center;
+}
+.active-tab-btn {
+  color: #2563eb;
+  border-bottom: 1px solid #2563eb;
+}
